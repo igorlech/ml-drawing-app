@@ -39,6 +39,7 @@ function next() {
     sketchPadContainer.style.visibility = "hidden";
     instructions.innerHTML = "Thank you!";
     advanceBtn.innerHTML = "SAVE";
+    advanceBtn.classList.add("btn-save");
     advanceBtn.onclick = save;
   }
 }

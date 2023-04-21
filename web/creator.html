@@ -9,12 +9,23 @@
     />
     <title>Data Creator</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="content">
       <h1>Data Creator</h1>
-      <div>
-        <input id="student" type="text" placeholder="Your Name" />
+      <div class="instructions-container">
+        <input
+          id="student"
+          class="inputfield"
+          type="text"
+          placeholder="Your Name"
+        />
         <span id="instructions"></span>
         <button id="advanceBtn" onclick="start();">START</button>
       </div>

@@ -1,7 +1,29 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: skyblue;
+    background-color: rgb(196, 232, 248);
     overscroll-behavior: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+.instructions-container {
+    margin-bottom: 1em;
+}
+
+#instructions {
+    font-size: 1.2em;
+    margin-right: 0.1rem;
+}
+
+.inputfield {
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 0.1rem;
 }
 
 #content {
@@ -13,16 +35,17 @@ body {
 }
 
 button {
+    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     border: none;
-    padding: 2px 10px 2px 10px;
-    height: 22px;
-    border-radius: 5px;
-    background-color: navy;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: rgb(2, 100, 212);
     color: white;
 }
 
 button:hover {
+    transition: 0.3s ease;
     background-color: mediumblue;
 }
 
